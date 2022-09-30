@@ -35,7 +35,7 @@ function App() {
       {toShow === 0 ? (
         <Buttons />
       ) : toShow === 1 ? (
-        <Message />
+        <Message onSubmit={handleShowState}/>
       ) : toShow === 2 ? (
         <Dromologia onSubmit={handleShowState}/>
       ) : (
